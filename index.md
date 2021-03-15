@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<head>
+  <title>Assignment 1</title>
+  <style>
+    body {
+      background-color: grey;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .head {
+      background-color: darkgray;
+      width: 100%;
+      height: 80px;
+      display:flex;
+      justify-content: center;
+      margin-top: auto;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 30px;
+    }
+    .main {
+      background-color: whitesmoke;
+      margin: auto;
+      padding: 10px;
+      max-width: 80%;
+      min-width: 50%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class='head'>
+    <div style="text-align: center;margin-left: 5%; "><h1 >Aidan Stevens</h1></div>
+    <div style="text-align: center;padding-left: 80px;">
+      <div>Student No: s3906886</div>
+      <div>Email: s3906886@rmit.edu.au</div>
+      <div>Nationality: Australian</div>
+      <div>Education: Diploma in IT</div>
+      <div>Interesting fact: Used to teach music</div>
+    </div>
+  </div>
+  <div class = 'main'>
+    <div>
+      <h2>Interest in IT</h2>
+      <p>
+        I have always been interested in gaming and computer hardware, though I always thought of it as a hobby, never thinking that it could ever be a career for me as I didn’t care too much else about the other areas of IT. After taking a few IT based subjects in high school and then later in university, while I was studying another course, I found out that I enjoyed a lot of the content that was being covered. After hating the degree, I was studying I moved over and began studying IT.
+      </p>
+      <p>
+        Last year I completed my Diploma in IT, feeling a bit disappointed by the delivery of multiple courses and the desire to leave regional NSW, I decided to make the move to Melbourne. Wanting to continue studying and to get my Bachelors. I decided that RMIT was the university for after hearing positive feedback from online and from friends and they offered course that I believed would be more useful than those offered by other intuitions. 
+      </p>
+      <p>
+        I am hoping that through my studies I can gain skills and knowledge that will allow me to have a fruitful career in IT. I am hoping that the content that is presented to me will be more current.
+      </p>
+    </div>
+    <div>
+      <h2>Ideal Job</h2>
+      
+    </div>
+    <div>
+      <h2>Personal Profile</h2>
+      <h4>Myers-Briggs Test</h4>
+      <a href="https://imgur.com/zdNgcUb"><img src="https://i.imgur.com/zdNgcUb.png" title="source: imgur.com" /></a>
+      <img src="https://i.imgur.com/zdNgcUb.png" title=" Myers-Briggs Test Results" />
+      <h4>Learning style Test</h4>
+      <img>
+      <h4>Creativity Test</h4>
+    </div>
+    <div>
+      <h2>Project Idea</h2>
+      <p>
 
+      </p>
+      <p>
+
+      </p>
+      <p>
+
+      </p>
+      <p>
+
+      </p>
+      <p>
+
+      </p>
+      <p>
+
+      </p>
+    </div>
+  </div>
+</body>
