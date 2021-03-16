@@ -1,30 +1,49 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Assignment 1</title>
+  <meta charset="UTF-8">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans&display=swap');
     body {
-      background-color: grey;
+      background-color: #f6efe5;
     }
     h2 {
       text-align: center;
+    }
+    h4 {
+      padding-left: 10px;
     }
     p {
       padding-left: 10px;
       padding-right: 10px;
     }
+    .img {
+      height: 250px;
+      display: block;
+      padding-left: 10px;
+    }
     .head {
-      background-color: darkgray;
+      position:absolute;
+      left:0;
+      top:0;
       width: 100%;
-      height: 80px;
       display:flex;
-      justify-content: center;
-      margin-top: auto;
+      background-color: #0d2c40;
+      height: 20px;
       text-align: center;
-      padding-bottom: 50px;
-      padding-top: 30px;
+      padding-bottom: 80px;
+    }
+    .banner-text {
+      color: #ffffff;
+      display:inline-block;
+      font-family: 'Merriweather', serif;
     }
     .main {
-      background-color: whitesmoke;
+      padding-top: 100px;
+      flex: auto;
+      background-color: white;
+      font-family: 'Open Sans', sans-serif;
       margin: auto;
       padding: 10px;
       max-width: 80%;
@@ -35,8 +54,8 @@
 </head>
 <body>
   <div class='head'>
-    <div style="text-align: center;margin-left: 5%; "><h1 >Aidan Stevens</h1></div>
-    <div style="text-align: center;padding-left: 80px;">
+    <div class="banner-text" style="margin-left: auto;font-size: 20px;"><h1 >Aidan Stevens</h1></div>
+    <div class="banner-text" style="padding-left: 80px;margin-right: auto;font-size: 12px;padding-top: 10px;">
       <div>Student No: s3906886</div>
       <div>Email: s3906886@rmit.edu.au</div>
       <div>Nationality: Australian</div>
@@ -45,7 +64,7 @@
     </div>
   </div>
   <div class = 'main'>
-    <div>
+    <div style="padding-top: 100px;">
       <h2>Interest in IT</h2>
       <p>
         I have always been interested in gaming and computer hardware, though I always thought of it as a hobby, never thinking that it could ever be a career for me as I didn’t care too much else about the other areas of IT. After taking a few IT based subjects in high school and then later in university, while I was studying another course, I found out that I enjoyed a lot of the content that was being covered. After hating the degree, I was studying I moved over and began studying IT.
@@ -59,16 +78,26 @@
     </div>
     <div>
       <h2>Ideal Job</h2>
-      
+      <p></p>
+      <p>The opportunity to be able to work in a web development role is what initially excited. With web development </p>
+      <p>The skills and knowledge required for the role include experience in .NET technologies, REST and JSON, ASP.NET WebAPI and .NET Middleware. Experience in developing personal identity and identity management for multi-tenant environments would be required. Experience working on projects with a team would also be beneficial in making me look right for the role.</p>
+      <p>The qualification I currently possess is a Diploma in Information Technology, where I have gained knowledge in an object oriented programming approach using Java.</p>
+      <p>A plan for future personal development to reach to reach the skills required for such a position would first include achieving a Bachelors in Information Technology. While completing such a course I would need to start developing a portfolio of different projects. The project would need to be varied in terms of technology and problems they attempt to solve to show versatility in skillset. These steps along with the usual job seeking requirements would put me in good standing for such a position.</p>
     </div>
     <div>
       <h2>Personal Profile</h2>
       <h4>Myers-Briggs Test</h4>
-      <img src="photos\MB Test.PNG" title=" Myers-Briggs Test Results" />
-      <img src="photos\Learning style test.PNG" title=" Learning Styles Test Results" />
+      <p>Personality test results: INTJ-T</p>
+      <img class="img" src="photos/mbTest.PNG" title=" Myers-Briggs Test Results" />
       <h4>Learning style Test</h4>
-      <img>
+      <p>Learning style results: Tactile</p>
+      <img class="img" src="photos/learningStyleTest.PNG" title=" Learning Styles Test Results" />
       <h4>Creativity Test</h4>
+      <img class="img" src="photos/creativityTest.PNG" title=" Creativity Test Results" />
+      <p>Creativity test score: 48.96</p>
+      <p>These results do not mean too much to me. I believe that these test try to pigeon whole peoples personalities when often they are more complex that defined types, also people tend to have a subconscious bias (reference here) to try and see themselves into the result and will slightly change their personalities to align.</p>
+      <p>These results will not change how someone would already work within a group. A leader within the group should quickly see how other members interact and then divide work accordingly for an optimal workflow.</p>
+      <p>There will always be personalities that are different when new people work together. Too much focus on this will distract from the task that will need to be completed. Structure should be established with the team to help with efficiency.</p>
     </div>
     <div>
       <h2>Project Idea</h2>
@@ -93,3 +122,4 @@
     </div>
   </div>
 </body>
+</html>
