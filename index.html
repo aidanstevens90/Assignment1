@@ -4,12 +4,12 @@
   <title>Assignment 1</title>
   <meta charset="UTF-8">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans&display=swap');
-    body {
-      background-color: #f7f2ec;
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;700&family=Open+Sans&display=swap');    body {
+      background-color: black;
     }
     h2 {
       text-align: center;
+      font-weight: bold;
     }
     h4 {
       padding-left: 15px;
@@ -24,47 +24,60 @@
       padding-left: 10px;
     }
     .head {
-      position:absolute;
-      left:0;
-      top:0;
+      border-radius: 50px;
+      margin-top:20px;
       width: 100%;
       display:flex;
-      background-color: #0d2c40;
+      background-color: white;
       height: 20px;
       text-align: center;
       padding-bottom: 80px;
     }
     .banner-text {
-      color: #ffffff;
+      color: black;
       display:inline-block;
-      font-family: 'Merriweather', serif;
+      font-family: 'Abel', sans-serif;
     }
     .main {
-      padding-top: 100px;
       flex: auto;
-      background-color: white;
-      font-family: 'Open Sans', sans-serif;
+      background-color: black;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
       margin: auto;
       padding: 10px;
       max-width: 80%;
       min-width: 50%;
-      height: 100%;
+      
+    }
+    .footer {
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+      top:90%;
+      color: white;
+    }
+    .spacer{
+      width:100%;
+      height: 3px;
+      background-color: white;
+      border-radius: 50px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <div class='head'>
-    <div class="banner-text" style="margin-left: auto;font-size: 20px;"><h1 >Aidan Stevens</h1></div>
+    <div class="banner-text" style="margin-left: auto;font-size: 20px;margin-top: 0px;"><h1 >Aidan Stevens</h1></div>
     <div class="banner-text" style="padding-left: 80px;margin-right: auto;font-size: 12px;padding-top: 10px;">
       <div>Student No: s3906886</div>
       <div>Email: s3906886@rmit.edu.au</div>
       <div>Nationality: Australian</div>
       <div>Education: Diploma in IT</div>
-      <div>Interesting fact: Used to teach music</div>
+      <div>Interesting fact: Used to be a music tutorer</div>
     </div>
   </div>
   <div class = 'main'>
-    <div style="padding-top: 100px;">
+    <div>
       <h2>Interest in IT</h2>
       <p>
         I have always been interested in gaming and computer hardware, though I always thought of it as a hobby, never thinking that it could 
@@ -83,6 +96,7 @@
         the content that is presented to me will be more current.
       </p>
     </div>
+    <div class="spacer"></div>
     <div>
       <h2>Ideal Job</h2>
       <p>
@@ -113,6 +127,7 @@
         These steps along with the usual job seeking requirements would put me in good standing for such a position.
       </p>
     </div>
+    <div class="spacer"></div>
     <div>
       <h2>Personal Profile</h2>
       <h4>Myers-Briggs Test</h4>
@@ -138,6 +153,7 @@
         that will need to be completed. Structure should be established with the team to help with efficiency.
       </p>
     </div>
+    <div class="spacer"></div>
     <div>
       <h2>Project Idea</h2>
       <h4>Overview</h4>
@@ -158,22 +174,47 @@
       </p>
       <h4>Description</h4>
       <p>
-        The product being developed will be a top down 2d strategy game. The game will put 2 team together, with future scalability to more 
-        players with 
+        The product proposed will be a top-down 2d turn-based strategy game. The game will put two teams together, with future scalability to 
+        potentially add more players with larger maps. Both teams will play on a 2d top-down view map that is procedurally generated for each 
+        game, using predefined tiles that will be seemingly randomly stitched together into a playable map. This system can be later expanded 
+        if time permits it. Possible expansion includes adding more themed tiles to add diversity to the visual appearance. The tile generation 
+        can be altered to favour certain tiles to have different types of maps. E.g. Land-based maps or more sea-based maps. Tiles can eventually 
+        be altered to be given distinct properties if time allows. These properties can include different movement speeds, only certain ‘units’ 
+        to move through them or apply other status effects. The player each turn will receive each turn an income of ‘resources’. These resources 
+        can be used to build ‘units’ that the player will be able to control. To gain additional ‘resources’ each turn, each team can capture 
+        different nodes spread across the map. These points will add different locations where each team can fight to create a more varied spread 
+        battlefield and so that both teams won’t just attack each other’s main bases. Victory will be achieved once one team destroys the other 
+        teams main base by depleting that base of its hit points. There will multiple different types of units, ‘classes’, each varying in design 
+        and stats and some will have different abilities. The stats that each ‘unit’ will health points (HP), attack, defence and movement, with 
+        each units having a unique mix so create interesting compositions of units. 
       </p>
       <h4>Tools and Technologies</h4>
       <p>
-
+        To design a game all within one team, we will need a game engine to assist in the game’s actual programming, and then we will require 
+        programs to help in art and asset design. The game will be built entirely in a game engine called Unity. This engine has been chosen as 
+        it offers an extensive suite of tools with a large community of users that can assist in any problem that may be encountered. The engine 
+        is also open source meaning there is no cost for using and publishing from it. Unity is also known for being good for some mobile game 
+        developed, being light in resource usage. With mobile games being one of the largest platforms for games, it is important to target that 
+        market. For art design, initial art concepts will be done practically to discover an art style that will be simple yet attractive to users. 
+        For asset production, Adobe Photoshop will be chosen as it is the current industry standard.
       </p>
       <h4>Skills Required</h4>
       <p>
-
+        There will be three main areas of skills required for the project. Skills using the game engine will be required, understanding how to 
+        produce a product with limited resources in a time-constrained environment while making sure that the project can be scaled appropriately. 
+        Art and asset design will be an important skill. Being able to develop a style that can be used to quickly and effectively produce new assets. 
+        The final skill that will be required is leadership skills that will be needed to coordinate an entire team that will be working on different 
+        parts of the product simultaneously, allowing for a seamless production.
       </p>
       <h4>Outcome</h4>
       <p>
-
+        Upon successful completion of the project, we would have to see if it successful among the open market and if so that will dictate how the 
+        project will move forward. If successful, the project will be able to generate a small amount of revenue initially. Porting the application 
+        to a mobile format will be able to begin, swapping how some systems work to feel better on touch screens. If the project continues to succeed 
+        on more platforms, then more revenue will be generated.
       </p>
     </div>
   </div>
+  <p class="footer">Aidan Stevens (S3906886)</p>
 </body>
 </html>
